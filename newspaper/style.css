@@ -1,0 +1,134 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, button, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, picture, pre, q, ruby, s, samp, section, select, small, source, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    outline: none;
+    text-decoration: none;
+}
+html {
+    font-size: 16px;
+    line-height: 1.15;
+    scroll-behavior: smooth;
+    --dark-blue-green: #026E78;
+    --dark-blue: #2D99A4;
+}
+html {
+    text-rendering: optimizeLegibility;
+}
+@-moz-document url-prefix() {
+    body {
+        font-weight: lighter!important;
+        background: url('../sevenmag/1.png') 0px 0px/cover no-repeat!important;
+    }
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+input[type="text"], input[type="number"],
+select, textarea {
+    font-size: 16px;
+}
+::selection {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom,  #ededed 0%,#6e7774 55%,#242424 96%,#242424 100%);
+}
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+    background-color: #fff;
+}
+div {
+    display: block;
+    max-height: 99999px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+#wrapper {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+#header {
+    display: flex;
+    justify-content: center;
+}
+#logo {
+    display: flex;
+    align-items: center;
+}
+#logo i {
+    font-size: 4.5rem;
+}
+#logo h2 {
+    margin: 0 0 0 20px;
+    font: bolder 2rem 'Roboto';
+}
+#current-date {
+    font: bolder 1.2rem 'Roboto';
+}
+header ul {
+    border-top: 3px solid #C4C4C4;
+    border-bottom: 3px solid #C4C4C4;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: .9rem 2rem;
+    margin: 5px 0 0 0;
+}
+header ul .item {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.item .link {
+    font: 1.3rem 'Roboto';
+}
+main {
+    margin: 2.5rem 0 1rem 0;
+}
+#main {
+    display: flex;
+    justify-content: space-between;
+}
+#main div {
+    flex-basis: 33%;
+}
+#main div:nth-last-child(1n+2) {
+    border-right: 3px solid #C4C4C4;
+}
+#main div:nth-child(1) {
+    padding: 0 1.5rem 0 0;
+}
+#main div:nth-child(2) {
+    padding: 0 1.5rem;
+}
+#main div:nth-child(3) {
+    padding: 0 0 0 1.5rem;
+}
+.col-news h3 {
+    font: bolder 1.3rem 'Roboto';
+}
+.col-news p {
+    font: 1rem 'Roboto';
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    margin: 20px 0 0 0;
+}
+.col-news img {
+    margin: 20px 0 0 0;
+}

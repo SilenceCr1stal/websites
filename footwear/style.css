@@ -1,0 +1,170 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, button, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, picture, pre, q, ruby, s, samp, section, select, small, source, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    outline: none;
+    text-decoration: none;
+}
+html {
+    font-size: 16px;
+    line-height: 1.15;
+    scroll-behavior: smooth;
+    --dark-blue-green: #026E78;
+    --dark-blue: #2D99A4;
+}
+html {
+    text-rendering: optimizeLegibility;
+}
+@-moz-document url-prefix() {
+    body {
+        font-weight: lighter!important;
+        background: url('../sevenmag/1.png') 0px 0px/cover no-repeat!important;
+    }
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+input[type="text"], input[type="number"],
+select, textarea {
+    font-size: 16px;
+}
+::selection {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom,  #ededed 0%,#6e7774 55%,#242424 96%,#242424 100%);
+}
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+    background-color: #fff;
+}
+div {
+    display: block;
+    max-height: 99999px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    background-color: rgb(203, 2, 28);
+    font: 16px 'Roboto';
+    min-height: 100vh;
+    transition: 1s background;
+}
+#wrapper {
+    position: relative;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+#header {
+    display: flex;
+    justify-content: center;
+}
+#menu-burger {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+}
+#logo {
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#logo h3 {
+    color: #fff;
+    font: 2.5rem 'Roboto'!important;
+}
+#logo span {
+    font: bolder 1.8rem 'Roboto';
+    color: rgb(24, 15, 1);
+}
+.headerEls {
+    transition: 1s color;
+}
+#call-us { 
+    position: fixed;
+    top: 1rem;
+    right: 1rem;   
+}
+main {
+    flex-grow: 1;
+    display: flex;
+}
+#main-content {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all;
+}
+#main-content button {
+    background-color: transparent;
+    margin: 0 1rem 1rem;
+    cursor: pointer;
+    position: fixed;
+}
+#main-content button .fas {
+    font-size: 6rem;
+    color: rgba(0, 0, 0, 0.452);
+}
+.fas {
+    font-size: 3rem;
+    color: #fff;
+}
+#onLeft {
+    left: 0;
+}
+#onRight {
+    right: 0;
+}
+#images-wrapper {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    overflow: hidden;
+    /* width: 40vw;
+    height: 55vh;
+    display: flex;
+    overflow: hidden;
+    position: relative; */
+}
+.current-image {
+    /* width: 45%;
+    height: 70%; */
+    display: flex;
+    transition: 1s all;
+}
+.slide {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#main-content h1 {
+    color: #fff;   
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    font: bolder 5rem 'Roboto';
+}
+.current-image img {
+    width: 40vw;
+    height: 55vh;
+    object-fit: cover;
+}

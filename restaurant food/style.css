@@ -1,0 +1,158 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, button, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, picture, pre, q, ruby, s, samp, section, select, small, source, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    outline: none;
+    text-decoration: none;
+}
+html {
+    font-size: 16px;
+    line-height: 1.15;
+    scroll-behavior: smooth;
+    --dark-blue-green: #026E78;
+    --dark-blue: #2D99A4;
+}
+html {
+    text-rendering: optimizeLegibility;
+}
+@-moz-document url-prefix() {
+    body {
+        font-weight: lighter!important;
+        background: url('../sevenmag/1.png') 0px 0px/cover no-repeat!important;
+    }
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+input[type="text"], input[type="number"],
+select, textarea {
+    font-size: 16px;
+}
+::selection {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom,  #ededed 0%,#6e7774 55%,#242424 96%,#242424 100%);
+}
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+    background-color: #fff;
+}
+div {
+    display: block;
+    max-height: 99999px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    background-color: #000;
+    background: url('../restaurant\ food/bg.png') center center/cover no-repeat;
+    min-height: 100vh;
+    color: #fff;
+    font-family: 'Roboto';
+    box-shadow: inset 0 30px 100px 0 var(--dark-blue);
+}
+#wrapper {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+#call-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    display: flex;
+    align-items: center;
+    color: var(--dark-blue-green);
+}
+#logo i {
+    font-size: 2.8rem;
+}
+#logo h1 {
+    font: bolder 3rem 'Roboto';
+    margin: 0 0 0 20px;
+}
+#feedback {
+    font: bolder 2.20rem 'Roboto';
+}
+#list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 0 0;
+    box-shadow: 0px 3px 5px 0px rgba(7, 7, 7, 0.226);
+}
+#list li {
+    background-color: var(--dark-blue);
+    flex: 1 auto;
+    transition: .2s all;
+}
+#list li:hover {
+    opacity: .8;
+}
+#list li a {
+    display: block;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+#list .home {
+    background-color: #fff;
+}
+#list .tab.home.selected a {
+    color: #fff;
+}
+#list .selected {
+    background-color: var(--dark-blue-green);
+}
+#list .home a {
+    color: var(--dark-blue-green);
+    font-weight: bolder;
+}
+main { 
+    margin: 23vh 0 0 0;
+}
+#main-content {
+    display: flex;
+    flex-direction: column;
+}
+#main-content h3 {
+    background-color: var(--dark-blue-green);
+    font: bolder 4rem 'Roboto';
+    width: max-content;
+    padding: 1rem;
+}
+#main-content #selected {
+    background-color: #fff;
+    color: var(--dark-blue);
+    font-size: 2rem;
+    padding: 1rem;
+}
+#main-content #view-menu {
+    background-color: var(--dark-blue);  
+    padding: 1rem 1.5rem;
+    color: #fff;
+    font-size: 2rem;
+}
+#main-content a {
+    width: max-content;
+}
+#main-content > * {
+    margin: 0 0 15px 0;
+}

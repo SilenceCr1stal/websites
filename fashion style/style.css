@@ -1,0 +1,170 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, button, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, picture, pre, q, ruby, s, samp, section, select, small, source, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    outline: none;
+    text-decoration: none;
+}
+html {
+    font-size: 16px;
+    line-height: 1.15;
+    scroll-behavior: smooth;
+    --dark-blue-green: #026E78;
+    --dark-blue: #2D99A4;
+}
+html {
+    text-rendering: optimizeLegibility;
+}
+@-moz-document url-prefix() {
+    body {
+        font-weight: lighter!important;
+        background: url('../sevenmag/1.png') 0px 0px/cover no-repeat!important;
+    }
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+input[type="text"], input[type="number"],
+select, textarea {
+    font-size: 16px;
+}
+::selection {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom,  #ededed 0%,#6e7774 55%,#242424 96%,#242424 100%);
+}
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+    background-color: #fff;
+}
+div {
+    display: block;
+    max-height: 99999px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    border-left: 32px solid #764400;
+    border-right: 32px solid #764400;
+    min-height: 100vh;
+    background: #FFE8C8;
+}
+#wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 45px 50px;
+}
+#logo i {
+    font-size: 5rem;
+    color: #764400;
+}
+#name-company {
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#name-company h1 {
+    font: italic bolder 4.5rem 'Roboto';
+    color: #764400;
+}
+#feedback {
+    padding: 15px 70px;
+    /* background: #764400; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font: italic 1.5rem 'Roboto';
+    color: #fff;
+}
+#feedback::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: #764400;
+    width: 100%;
+    height: 100%;
+    transform: skewX(-30deg);
+    z-index: -1;
+}
+#main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.column {
+    width: 47%;
+    margin: 30px 0 0 0;
+}
+.column * {
+    display: block;
+}
+#col1 h4 {
+    font: 400 3rem 'Roboto';
+}
+#col1 span {
+    margin: 35px 0 0 0;
+    font: 100 2rem 'Roboto';
+}
+#first {
+    width: 400px;
+    height: 400px;
+    margin: 45px 0 0 0;
+}
+#first img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: -15px -15px 0 0 #764400;
+}
+#col2 * {
+    display: block;
+}
+#col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#second img {
+    object-fit: cover;
+    box-shadow: 20px 20px 0 0 #764400;
+}
+#buy {
+    margin: 60px 0 0 0 ;
+    position: relative;
+    padding: 15px 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: italic 2.5rem 'Roboto';
+    width: fit-content;
+    color: #fff;
+}
+#buy::after {
+    position: absolute;
+    content: '';
+    background: #764400;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: skewX(-30deg);
+    z-index: -1;
+}

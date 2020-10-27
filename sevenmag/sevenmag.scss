@@ -1,0 +1,29 @@
+@import 'normalize.scss';
+
+@mixin font-Cabin {
+    font-family: 'Cabin', sans-serif;
+}
+
+@mixin font-Heebo {
+    font-family: 'Heebo', sans-serif;
+}
+
+@mixin font-Oxigen {
+    font-family: 'Oxygen', sans-serif;
+}
+
+@mixin font-Kaushan-Script {
+    font-family: 'Kaushan Script', cursive;
+}
+
+@mixin font-Great-Vibes {
+    font-family: 'Great Vibes', cursive;
+}
+
+@mixin font-Oleo-Script {
+    font-family: 'Oleo Script', cursive;
+}
+
+@mixin font-Coda {
+    font-family: 'Coda', cursive;
+}

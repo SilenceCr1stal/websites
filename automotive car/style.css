@@ -1,0 +1,157 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, button, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, picture, pre, q, ruby, s, samp, section, select, small, source, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    outline: none;
+    text-decoration: none;
+}
+html {
+    font-size: 16px;
+    line-height: 1.15;
+    scroll-behavior: smooth;
+    --light-blue: #00c2ff;
+}
+html {
+    text-rendering: optimizeLegibility;
+}
+@-moz-document url-prefix() {
+    body {
+        font-weight: lighter!important;
+        background: url('../sevenmag/1.png') 0px 0px/cover no-repeat!important;
+    }
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+input[type="text"], input[type="number"],
+select, textarea {
+    font-size: 16px;
+}
+::selection {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom,  #ededed 0%,#6e7774 55%,#242424 96%,#242424 100%);
+}
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+    background-color: #fff;
+}
+div {
+    display: block;
+    max-height: 99999px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+#wrapper {
+    background: url('../automotive\ car/car-bg.jpg') center center/cover no-repeat;
+    min-height: calc(100vh - 110px);
+}
+header {
+    background-color: rgba(0, 0, 0, 0.418);
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+#logo {
+    display: flex;
+    align-items: center;
+}
+#logo i {
+    font-size: 4rem;
+}
+#logo h2 {
+    font: bolder 2.5rem 'Roboto';
+    margin: 0 0 0 15px;
+}
+#list {
+    list-style: none;
+    display: flex;
+}
+.tab {
+    font: .9rem 'Roboto';
+    padding: 1rem 21px;
+}
+.tab a {
+    color: #fff;
+}
+.tab.selected {
+    background-color: var(--light-blue);
+    border-radius: 1px;
+}
+.tab:first-child {
+    font-weight: bolder;
+}
+main {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    min-height: calc(64px + 62vh);
+}
+#visit-card {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#visit-card h1 {
+    font: bold 4rem 'Roboto';
+    color: var(--light-blue);
+    letter-spacing: 1px;
+}
+#visit-card span {
+    font: 2rem 'Roboto';
+}
+#visit-card a {
+    padding: 16px 24px;
+    margin: 34px 0 0 0;
+    border-radius: 1px;
+    max-width: auto;
+    background-color: var(--light-blue);
+    color: #fff;
+    font-size: 18px;
+    width: max-content;
+}
+footer {
+    background-color: #000;
+    width: 100%;
+}
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 29px 0;
+}
+#footer div .feedback {
+    font: 22px 'Roboto';
+    color: var(--light-blue);
+}
+#footer div span {
+    font: 23px 'Roboto';
+}
