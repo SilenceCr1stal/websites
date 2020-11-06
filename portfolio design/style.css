@@ -1,0 +1,131 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, button, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, picture, pre, q, ruby, s, samp, section, select, small, source, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    outline: none;
+    text-decoration: none;
+}
+html {
+    font-size: 16px;
+    line-height: 1.15;
+    scroll-behavior: smooth;
+    --light-blue: #007ff4;
+}
+html {
+    text-rendering: optimizeLegibility;
+}
+@-moz-document url-prefix() {
+    
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+input[type="text"], input[type="number"],
+select, textarea {
+    font-size: 16px;
+}
+::selection {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+::-webkit-scrollbar {
+    width: 6px;
+    height: 10px;
+}
+div {
+    display: block;
+    max-height: 99999px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    background: url('../portfolio\ design/bg.png') no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 100vh;
+}
+header {
+    padding: 4rem 5rem 0;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+#about-me {
+    width: 40%;
+    padding: 2rem 0 0 0;
+}
+#about-me p {
+    color: #29415e;
+    font: 2rem 'Roboto';
+}
+#contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#contact-me h3 {
+    font: 3rem 'Roboto';
+}
+#contact-me a {
+    font: 2.5rem 'Roboto';
+}
+main {
+    display: flex;
+    position: relative;
+}
+main i {
+    position: absolute;
+    top: 0;
+    left: 65%;
+    font: bolder 30rem 'Roboto';
+    color: rgba(255, 255, 255, 0.267);
+}
+#main h1 {
+    margin: 4rem 0 0 0;
+    font: 5rem 'Roboto';
+    background-color: #fff;
+    padding: 1rem 5rem;
+    width: max-content;
+}
+#main .craft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 3rem 4rem 0 0;
+}
+#main .craft span {
+    font: 2rem 'Roboto';
+    color: #fff;
+    background: #556272;
+    padding: 1.5rem;
+}
+#main .craft span:last-child {
+    margin: 0 1rem 0 0;
+}
+#skills {
+    margin: 0 0 0 3rem;
+}
+#skills h3 {
+    font: bolder 4rem 'Roboto';
+    color: #29415e;
+}
+#skills ul {
+    list-style: none;
+}
+#skills ul .item {
+    font: 2rem 'Roboto';
+    color: #29415e;
+}
